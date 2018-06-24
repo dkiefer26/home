@@ -18,6 +18,8 @@ exclude:
   - Gemfile.lock
   - node_modules
   - [vendor]
+  - vendor
+  - 'vendor'
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
