@@ -4,3 +4,11 @@ rvm:
   - jruby
   - rbx-3
 script: "bundle exec jekyll build"
+exlude:
+  - [vendor]
+  - vendor
+  - 'vendor'
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
